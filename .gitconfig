@@ -1,0 +1,10 @@
+[user]
+	email = thewilliamperron@gmail.com
+	name = William Perron
+	signingkey = YOURKEYHERE
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[alias]
+	adog = log --all --decorate --oneline --graph
