@@ -20,6 +20,13 @@ node: update_system
 	curl -sL https://deb.nodesource.com/setup_14.x | bash -
 	apt install -y nodejs
 
+golang: update_system
+	curl --silent https://dl.google.com/go/go1.14.linux-amd64.tar.gz -o go1.14.linux-amd64.tar.gz
+	tar -C /usr/local -xzf go1.14.linux-amd64.tar.gz
+
+rust: update_system
+	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -y
+
 update_system:
 	apt update -y
 	apt install -y \
