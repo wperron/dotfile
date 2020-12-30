@@ -1,4 +1,4 @@
-all: dotfiles git python node
+all: dotfiles git python node golang rust deno
 
 dotfiles: update_system
 	cp ./.bashrc ~/.bashrc
@@ -12,7 +12,6 @@ git: update_system
 python: update_system
 	apt install -y \
 		python \
-		python-pip \
 		python3 \
 		python3-pip
 
@@ -26,6 +25,9 @@ golang: update_system
 
 rust: update_system
 	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -y
+
+deno: update_system
+	curl -fsSL https://deno.land/x/install/install.sh | sh
 
 update_system:
 	apt update -y
