@@ -20,8 +20,8 @@ node: update_system
 	apt install -y nodejs
 
 golang: update_system
-	curl --silent https://dl.google.com/go/go1.14.linux-amd64.tar.gz -o go1.14.linux-amd64.tar.gz
-	tar -C /usr/local -xzf go1.14.linux-amd64.tar.gz
+	curl --silent https://dl.google.com/go/go1.15.6.linux-amd64.tar.gz -o go1.15.6.linux-amd64.tar.gz
+	tar -C /usr/local -xzf go1.15.6.linux-amd64.tar.gz
 
 rust: update_system
 	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -y
