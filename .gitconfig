@@ -1,5 +1,5 @@
 [user]
-	email = thewilliamperron@gmail.com
+	email = hey@wperron.io
 	name = William Perron
 	signingkey = YOURKEYHERE
 [commit]
@@ -8,3 +8,11 @@
 	program = gpg
 [alias]
 	adog = log --all --decorate --oneline --graph
+	ap = fetch --all --prune
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[pull]
+	ff = only
+	rebase = true
