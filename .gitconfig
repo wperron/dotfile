@@ -9,6 +9,7 @@
 [alias]
 	adog = log --all --decorate --oneline --graph
 	ap = fetch --all --prune
+	shove = push --force
 [core]
 	editor = vim
 [init]
