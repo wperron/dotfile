@@ -38,5 +38,8 @@
     "explorer.confirmDelete": false,
     "go.useLanguageServer": true,
     "workbench.colorTheme": "Default Dark+",
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 }
