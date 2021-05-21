@@ -37,7 +37,6 @@
     "editor.renderWhitespace": "all",
     "explorer.confirmDelete": false,
     "go.useLanguageServer": true,
-    "workbench.colorTheme": "Default Dark+",
     "extensions.ignoreRecommendations": true,
     "go.toolsManagement.autoUpdate": true,
     "editor.suggestSelection": "first",
